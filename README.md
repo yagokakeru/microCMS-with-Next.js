@@ -27,6 +27,12 @@ cp .env.example .env.local
 
 ```env
 MICROCMS_SERVICE_DOMAIN= # microCMS管理画面の URL（https://xxxxxxxx.microcms.io）の xxxxxxxx の部分
-MICROCMS_API_INFO_API_KEY= # microCMS管理画面の「サービス設定 > API キー」から確認
+MICROCMS_API_KEY= # microCMS管理画面の「サービス設定 > API キー」から確認（default）
+MICROCMS_API_INFO_API_KEY= # microCMS管理画面の「サービス設定 > API キー」から確認（型生成用）
+
+
+MICROCMS_SERVICE_DOMAIN=16rcsi4hmi
+MICROCMS_API_KEY=gN9Dx7PDFCzYiw5qrAMvXjNvwWRNeUQx6ZlJ
+MICROCMS_API_INFO_API_KEY
 ```
 ---
